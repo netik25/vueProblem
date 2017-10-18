@@ -1,0 +1,35 @@
+body{
+  color: rgb(12,12,12);
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.application--light{
+  background-color: white !important;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  margin: 4rem 0;
+}
+
+a {
+  color: inherit;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+/* Badge */
+
+.badge--overlap:after {
+  top: -4px !important;
+}
+
+.badge:after {
+  height: 17px !important;
+  width: 17px !important;
+}
